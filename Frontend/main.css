@@ -1,0 +1,148 @@
+﻿html {
+    height: 100%;
+
+}
+body {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.nav{
+    background-color:white;
+}
+
+.footer {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    text-align: Left;
+}
+.myButton {
+    display: inline-block;
+    border: 0.13rem solid black;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 0.2rem;
+    padding: 1.7rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+    transition: background 70ms cubic-bezier(0,0,.38,.9), box-shadow 70ms cubic-bezier(0,0,.38,.9), border-color 70ms cubic-bezier(0,0,.38,.9), outline 70ms cubic-bezier(0,0,.38,.9);
+}
+    .myButton:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+.contact {
+    text-align:right;
+}
+
+.center {
+    position: fixed;
+    top: 12%;
+    left: 40%;
+}
+
+.inputT {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin-bottom: 0.3rem;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.inputT:focus {
+    border-color: #005A9C;
+    box-shadow: 0 0 8px 0 #005A9C;
+}
+
+.smallButton {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+.smallButton:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    display: inline-block;
+    border: 0.13rem solid black;
+    margin-top: 0.2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+    right: 0;
+    top: 0;
+    position: fixed;
+    transition: background 70ms cubic-bezier(0,0,.38,.9), box-shadow 70ms cubic-bezier(0,0,.38,.9), border-color 70ms cubic-bezier(0,0,.38,.9), outline 70ms cubic-bezier(0,0,.38,.9);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+            color: #fff;
+            background-color: black;
+            border-color: black;
+       }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+                
