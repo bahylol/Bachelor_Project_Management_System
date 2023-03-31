@@ -97,7 +97,7 @@
             <asp:TextBox ID="Country_Entry" CssClass="inputT" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="RegisterButton" CssClass="myButton" runat="server" BackColor="#33CC33" BorderStyle="Outset" CssClass="auto-style4" OnClick="RegisterAccount" Text="Register" Width="209px" />
+            <asp:Button ID="RegisterButton" CssClass="myButton" runat="server" OnClick="RegisterAccount" Text="Register" Width="209px" />
         </p>
     </form>
 </body>
