@@ -24,7 +24,7 @@
     <br>
     This project is created for my university The German International Univeristy (GIU)
     <br>
-    Note :This Project was mainly a database project (1.5k lines of sql),thus the frontend is not at a professional level.</h3>
+    Note :This Project was mainly a database project (1.5k+ lines of sql),thus the frontend is not at a professional level.</h3>
     <br>
     <h2>Usage</h2>
     <h3><ol>
